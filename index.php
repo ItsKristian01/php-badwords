@@ -9,19 +9,15 @@
 
 <body>
     <h1>Scrivi una parola</h1>
-    <form action="censure.php">
-        <label for=""></label>
-        <input type="text" id="" name="">
+    <form action="censure.php" method="GET">
+        <label for="word">Parola</label>
+        <input type="text" id="word" name="word">
+
+        <label for="censor">Parola da censurare</label>
+        <input type="text" id="censor" name="censor">
 
         <button type="submit">Invia</button>
-
-        <h1>Scrivi una parola da censurare</h1>
-        <form action="censure.php">
-            <label for=""></label>
-            <input type="text" id="" name="">
-
-            <button type="submit">Invia</button>
-        </form>
+    </form>
 </body>
 
 </html>
