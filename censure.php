@@ -16,7 +16,8 @@ $censor = $_GET['censor']
     <!-- Funzioni lunghezza stringa -->
     <?php $length = strlen($word); ?>
     <?php $length_censor = strlen($censor); ?>
-
+    
+    <!-- Funzione sostituzione parola -->
     <?php $new_string = str_replace($censor, '***', $censor) ?>
 
     <!-- Paragrafo -->
